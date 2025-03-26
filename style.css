@@ -20,7 +20,9 @@
     16px = 1rem
     20px = 1.25rem
     24px = 1.5rem
+    28px = 1.75rem
     32px = 2rem
+    36px = 2.25rem
     40px = 2.5rem
     45px = 2.813rem
     279px = 17.438rem
@@ -56,6 +58,14 @@
   --rose-800: hsl(332, 51%, 32%);
 
   /* Spacing */
+  --s-8: 0.5rem; /* 100 */
+  --s-12: 0.75rem; /* 150 */
+  --s-16: 1rem; /* 200 */
+  --s-24: 1.5rem; /* 300 */
+  --s-32: 2rem; /* 400 */
+  --s-40: 2.5rem; /* 500 */
+  --s-48: 3rem; /* 600 */
+  --s-128: 8rem; /* 1600 */
 
   /* Fonts */
   --w-1: 400;
@@ -67,29 +77,70 @@
 /* General */
 /********************************/
 
-/* * {
-  margin: 0;
-  padding: 0;
+* {
+  /* margin: 0; */
+  /* padding: 0; */
   box-sizing: border-box;
-} */
+  line-height: 1;
+  font-family: "Outfit", serif;
+  font-weight: var(--w-1);
+  font-size: 1rem;
+}
 
 /********************************/
 /* Utilities */
 /********************************/
 
 /* Text Presets */
-.txt-p--1 {
-  font-family: "Young Serif", serif;
-  font-weight: var(--w-1);
-  font-size: 2.5rem;
-}
+
+.txt-p--1,
+.txt-p--1m,
 .txt-p--2 {
+  font-family: "Young Serif", serif;
 }
+
+.txt-p--1 {
+  font-size: 2.5rem;
+  color: var(--stone-900);
+}
+
+.txt-p--1m {
+  font-size: 2.25rem;
+  color: var(--stone-900);
+}
+
+.txt-p--2 {
+  font-size: 1.75rem;
+  color: var(--brown-800);
+}
+
 .txt-p--3 {
+  font-weight: var(--w-2);
+  font-size: 1.25rem;
+  color: var(--rose-800);
 }
+
 .txt-p--4 {
+  line-height: 1.5;
+  color: var(--stone-600);
 }
+
 .txt-p--4b {
+  font-weight: var(--w-3);
+  line-height: 1.5;
+  color: var(--stone-600);
+}
+
+.color--brown {
+  color: var(--brown-800);
+}
+
+.bg-secondary {
+  background-color: var(--rose-50);
+}
+
+.flow > * + * {
+  margin-bottom: var(--s-32);
 }
 
 /********************************/
