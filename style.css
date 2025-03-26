@@ -1,0 +1,101 @@
+/* @font-face {
+  font-family: "Young Serif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+    format("truetype");
+} */
+
+/********************************/
+/* Cheatsheet :D */
+/********************************/
+
+/*  4px = 0.25rem
+    12px = 0.75rem
+    14px = 0.875rem
+    16px = 1rem
+    20px = 1.25rem
+    24px = 1.5rem
+    32px = 2rem
+    40px = 2.5rem
+    45px = 2.813rem
+    279px = 17.438rem
+    289px = 18.063rem
+    304px = 19rem
+    327px = 20.438rem
+    384px = 24rem
+    501px = 31.313rem
+    522px = 32.625rem
+    579px = 36.188rem
+    611px = 38.188rem
+    704px = 44rem
+    1400px = 87.5rem
+    1440px = 90rem
+    1920px = 120rem
+*/
+
+/********************************/
+/* Notes */
+/********************************/
+
+/********************************/
+/* Custom properties */
+/********************************/
+
+:root {
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-50: hsl(330, 100%, 98%);
+  --rose-800: hsl(332, 51%, 32%);
+
+  /* Spacing */
+
+  /* Fonts */
+  --w-1: 400;
+  --w-2: 600;
+  --w-3: 700;
+}
+
+/********************************/
+/* General */
+/********************************/
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/********************************/
+/* Utilities */
+/********************************/
+
+/* Text Presets */
+.txt-p--1 {
+  font-family: "Young Serif", serif;
+  font-weight: var(--w-1);
+  font-size: 2.5rem;
+}
+.txt-p--2 {
+}
+.txt-p--3 {
+}
+.txt-p--4 {
+}
+.txt-p--4b {
+}
+
+/********************************/
+/* Elements */
+/********************************/
+
+/********************************/
+/* Media queries */
+/********************************/
